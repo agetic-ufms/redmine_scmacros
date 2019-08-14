@@ -1,7 +1,11 @@
 # encoding: utf-8
 # Redmine Scmacros plugin
+<<<<<<< HEAD
+# Copyright (C) 2010 Gregory Rome
+=======
 # Copyright (C) 2010-2013 Gregory ROMÉ
 # Copyright (C) 2011 Mitsuhiro YOSHITANI
+>>>>>>> e96a16e05200bed2d1c05f29c8e82ef1ac78ec34
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -25,7 +29,11 @@ end
 
 Redmine::Plugin.register :redmine_scmacros do
   name 'Redmine Scmacros plugin'
+<<<<<<< HEAD
+  author 'Gregory Rome'
+=======
   author 'Icer LIANG, Gregory ROMÉ, Mitsuhiro YOSHITANI, '
+>>>>>>> e96a16e05200bed2d1c05f29c8e82ef1ac78ec34
   description 'Add macros related to SCM (repository)'
   version '0.0.3'
   url 'http://github.com/gpr/redmine_scmacros'
