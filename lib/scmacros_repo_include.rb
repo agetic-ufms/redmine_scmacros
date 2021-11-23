@@ -52,19 +52,13 @@ module ScmacrosRepositoryInclude
       return nil unless repo
       
       text = repo.cat(file_path)
-<<<<<<< HEAD
-      text.force_encoding("UTF-8")
-=======
       text = Redmine::CodesetUtil.to_utf8_by_setting(text)
->>>>>>> e96a16e05200bed2d1c05f29c8e82ef1ac78ec34
       
       o = textilizable(text)
       
       return o
     end
   end
-<<<<<<< HEAD
-=======
 
   Redmine::WikiFormatting::Macros.register do
     desc "Includes and formats a file from repository as a Markdown.\n\n" +
@@ -86,5 +80,4 @@ module ScmacrosRepositoryInclude
       return o
     end
   end
->>>>>>> e96a16e05200bed2d1c05f29c8e82ef1ac78ec34
 end
